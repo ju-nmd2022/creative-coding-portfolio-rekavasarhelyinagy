@@ -13,5 +13,20 @@
     "file": "experiments/experiment1.3.js",
     "name": "Growing Flowers 3",
     "description": "Here I changed the opacity and size of the flower with a black backgound."
+  },
+  {
+    "file": "experiments/experiment1.4.js",
+    "name": "Growing Flowers 4",
+    "description": "By modifying the shape of the petals, a whole new look has been given to the artwork."
+  },
+  {
+    "file": "experiments/experiment3.1.js",
+    "name": "Noise",
+    "description": "This artwork is also similar to Zach Lieberman's piece. I added to the perlin noise a time variable to make it move."
+  },
+  {
+    "file": "experiments/experiment1.3.js",
+    "name": "Noise 2",
+    "description": "By playing around with the values in the perlin noise, a different structure was born. I also added a randomized color to each line, changed the direction of the movement and added a blue background."
   }
 ]

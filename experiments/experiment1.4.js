@@ -1,5 +1,5 @@
 let flowers = []; // Array to store the size and color of each flower
-let maxSize = 10; // Maximum size for each flower before a new one starts
+let maxSize = 20; // Maximum size for each flower before a new one starts
 let centerX, centerY; // Center position for all flowers
 
 function setup() {
@@ -9,29 +9,37 @@ function setup() {
   centerY = height / 2;
 }
 
-function flower(size, color) {
-  push();
-  translate(centerX, centerY); // Move to the flower's position at the center
-  noStroke();
-  let petals = 20;
-
-  fill(color.petal); // Use the random petal color
-  for (let i = 0; i < petals; i++) {
-    ellipse(size, 0, size * 4, size); // Draw ellipse with dynamic size
-    rotate(TWO_PI / petals); // Rotate for the next petal
+function flower(size, color, angle) {
+    push();
+    translate(centerX, centerY); // Move to the flower's position at the center
+    rotate(angle); // Apply rotation
+  
+    //noStroke();
+    let petals = 20;
+    
+    fill(color.petal); // Use the petal color
+    
+    for (let i = 0; i < petals; i++) {
+      beginShape();
+      vertex(size, -size / 2);
+      vertex(size * 2, size / 2);
+      vertex(size, size * 1.5);
+      endShape(CLOSE); // Draw triangle shape
+      rotate(TWO_PI / petals); // Rotate for the next petal
+    }
+  
+    pop();
   }
-
-  pop();
-}
+  
 
 function draw() {
-  background(255); // Clear the background
+  background(255, 215, 0); // Clear the background
 
   // Update and draw each flower
   for (let i = 0; i < flowers.length; i++) {
     let f = flowers[i];
     flower(f.size, f.color); // Draw the flower with its color
-    f.size += 0.3; // Increase the size of the flower
+    f.size += 0.5; // Increase the size of the flower
 
     // If the flower reaches maxSize, add a new flower
     if (f.size > maxSize && i === flowers.length - 1) {
@@ -55,8 +63,3 @@ function draw() {
   }
 }
 
-
-
-//with the help of ChatGTP
-
-//original artwork: https://www.instagram.com/p/C0ulB_sJK2i/
