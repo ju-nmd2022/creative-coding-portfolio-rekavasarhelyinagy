@@ -25,7 +25,7 @@
     "description": "This artwork is also similar to Zach Lieberman's piece. I added to the perlin noise a time variable to make it move."
   },
   {
-    "file": "experiments/experiment1.3.js",
+    "file": "experiments/experiment3.2.js",
     "name": "Noise 2",
     "description": "By playing around with the values in the perlin noise, a different structure was born. I also added a randomized color to each line, changed the direction of the movement and added a blue background."
   }
