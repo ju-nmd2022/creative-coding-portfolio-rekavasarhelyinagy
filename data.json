@@ -1,7 +1,17 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "file": "experiments/experiment1.1.js",
+    "name": "Growing Flowers",
+    "description": "This art is inspired by the work of Zach Lieberman. I first draw the flower itself, then figured out how to make it constantly grow. I added a loop so the flowers appear infinitely, grow in their size with a randomized color."
+  },
+  {
+    "file": "experiments/experiment1.2.js",
+    "name": "Growing Flowers 2",
+    "description": "This is a modified version of the Growing Flowers. I played around with different shapes through changing the number of petals, and added a rotation too."
+  },
+  {
+    "file": "experiments/experiment1.3.js",
+    "name": "Growing Flowers 3",
+    "description": "Here I changed the opacity and size of the flower with a black backgound."
   }
 ]
