@@ -28,5 +28,30 @@
     "file": "experiments/experiment3.2.js",
     "name": "Noise 2",
     "description": "By playing around with the values in the perlin noise, a different structure was born. I also added a randomized color to each line, changed the direction of the movement and added a blue background."
+  },
+  {
+    "file": "experiments/complexity1.1.js",
+    "name": "White Lines",
+    "description": "Inspired by the artwork of Zach Lieberman. In a black background, the white lines appear and grow until acertain length, forming a picture like a meteorological map of the surface wind."
+  },
+  {
+    "file": "experiments/complexity1.2.js",
+    "name": "Birthday Party",
+    "description": "Playing around more with the previous artwork, changing the thickness, the color and the length of the lines, a new look was born with festive vibes.."
+  },
+  {
+    "file": "experiments/complexity2.1.js",
+    "name": "Paint dots on the wall",
+    "description": "This work is also inspired by Zach Lieberaman. An interactive element was added, so the final picture can be created manually."
+  },
+  {
+    "file": "experiments/complexity2.2.js",
+    "name": "Flitters",
+    "description": "This artwork also needs an interactive input. By clicking, colorful flitters will appear mooving to different directions, gradually disappearing."
+  },
+  {
+    "file": "experiments/complexity2.3.js",
+    "name": "Shooting Stars",
+    "description": "By clicking, stars will be shooted toward different directions in different sizes."
   }
 ]
