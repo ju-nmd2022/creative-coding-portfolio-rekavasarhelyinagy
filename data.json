@@ -53,5 +53,10 @@
     "file": "experiments/complexity2.3.js",
     "name": "Shooting Stars",
     "description": "By clicking, stars will be shooted toward different directions in different sizes."
+  },
+  {
+    "file": "experiments/tone1.1.js",
+    "name": "Playground",
+    "description": "In this work, the shapes, colours and sounds create a vibrant variety, giving a playful environment to the scene. The shapes, the color of the figures and the tone of the sound is generated randomly for each click, giving an unexpected outcome and a unique look with sound, which fades out after the interactivity o the user. "
   }
 ]
