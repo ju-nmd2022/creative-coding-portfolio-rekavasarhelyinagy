@@ -12,8 +12,8 @@ class Particle {
   }
 
   randomColor() {
-    // Generate a random color in RGB format
-    return color(random(255), random(255), random(255)); // Random color
+    // Generate a random color in RGB format randomly
+    return color(random(255), random(255), random(255)); 
   }
 
   update() {
